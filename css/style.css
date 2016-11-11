@@ -3,10 +3,12 @@ body {
   line-height: 21px;
   color: #333333;
   font-weight: normal;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
 }
 
-h1, h2 {
+h1,
+h2,
+.features__heading span  {
   font-size: 21px;
   line-height: 26px;
   color: #000000;
@@ -15,4 +17,184 @@ h1, h2 {
 
 .features__item h2 {
   line-height: 21px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.main-nav {
+  margin: 0 73px;
+  min-height: 56px;
+}
+
+.logo__vector {
+  width: 138px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.logo__link {
+  width: 67px;
+  height: 56px;
+  margin: 0 auto;
+}
+
+.box-header {
+  min-height: 508px;
+  margin-bottom: 63px;
+}
+
+.features__heading {
+  min-height: 102px;
+  margin-bottom: 63px;
+}
+
+.features__item--num {
+  width: 400px;
+  height: 255px;
+}
+
+.features__img {
+  width: 800px;
+  height: 255px;
+}
+
+.features__item--white {
+  width: 400px;
+  height: 330px;
+}
+
+.features__item,
+.features__img {
+  float: left;
+}
+
+.features {
+  margin-bottom: 61px;
+}
+
+.box-footer__offer {
+  min-height: 101px;
+  margin-bottom: 59px;
+}
+
+.box-footer__datesearch {
+  margin: 0 auto;
+  width: 568px;
+}
+
+.box-footer__search {
+  width: 100%;
+  height: 86px;
+  background-color: #766357;
+}
+
+.box-footer__date {
+  width: 100%;
+  height: 395px;
+/*  display: none; */
+}
+
+.box-footer__map {
+  width: 100%;
+  height: 593px;
+}
+
+.main-footer {
+  padding: 36px 0;
+}
+
+.main-footer__visit {
+  width: 240px;
+  min-height: 48px;
+  margin-left: 73px;
+  float: left;
+}
+
+.main-footer__social {
+  width: 150px;
+  min-height: 48px;
+  margin-left: 212px;
+  float: left;
+}
+
+.main-footer__copyright {
+  width: 241px;
+  min-height: 48px;
+  margin-right: 73px;
+  float: right;
+}
+
+.filter {
+  min-height: 217px;
+  margin-bottom: 31px;
+}
+
+.filter__form,
+.found,
+.result-content {
+  padding: 0 73px;
+}
+
+.filter__content-left {
+  width: 254px;
+  float: left;
+}
+
+.filter__content-right {
+  width: 328px;
+  float: right;
+}
+
+
+.found {
+  min-height: 56px;
+}
+
+.found__result {
+  width: 165px;
+  float: left;
+}
+
+.found__sort {
+  width: 365px;
+  float: left;
+}
+
+.found__arrows {
+  width: 40px;
+  float: right;
+}
+
+
+.result-content {
+  min-height: 150px;
+}
+
+.result-content__img {
+  width: 135px;
+  height: 90px;
+  float: left;
+}
+
+.result-content__section-l {
+  width: 260px;
+  height: 90px;
+  float: left;
+  margin-left: 30px;
+}
+
+.result-content__section-r {
+  width: 110px;
+  height: 90px;
+  float: right;
 }
